@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	text-decoration: none;
+    color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.home-slider {
+	padding: 0;
+}
+
+.home-slider h5{
+	font-size: 40px;
+}
+
+.home-slider p{
+	font-size: 30px;
+}
+.carousel-caption {
+	bottom: 100px;
+    color: black;
+    background-color: white;
+    background: size 20px;;
+    opacity: 0.7;
+}
+body {
+	margin-bottom: 60px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+header {
+	padding: 20px;
+	background-color:black ;
+}
+.header-nav,
+li {
+	list-style: none;
+}
+.header-nav li{
+	display: inline-block;
+	padding: 0px 20px;
+	color: white;
+	object-position: left;
+	
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.header-nav li a {
+	transition: all 0.3s ease 0s;
+}
+.header-nav li a:hover {
+	color:lightsteelblue;
+}
+
+.card{
+	width: 400px;
+	margin: 30px auto;
+	background-color: white;
+	box-shadow: 0 5px 10px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.card-photo {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.card-title {
+	font-size: 20px;
+	text-align: center;
+}
+.card-title:hover {
+	color: black;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(160, 71, 168),
+    0 0 82px rgb(160, 71, 168),
+    0 0 92px rgb(160, 71, 168),
+    0 0 102px rgb(160, 71, 168),
+    0 0 151px rgb(160, 71, 168);
+}
+.card-title:visited{
+	color:springgreen;
+}
+.card-title:active {
+	color: black;
+}
+.citata {
+	text-align: center;
+	font-family:Tahoma;
+	margin-bottom: 5%;
+	font-size: 30px;
+}
+.card-text {
+	font-size: 20px;
+	text-align: center;
+}
+.content {
+    margin-bottom:50px ;
+}
